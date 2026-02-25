@@ -1,0 +1,32 @@
+div.coffeecounter {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: #703609;
+    padding: 15px;         /* Increased for better spacing */
+    width: 200px;
+    display: flex;         /* MUST have this for justify/align to work */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+    color: white;          /* Added so text is readable on dark brown */
+    margin: auto;        /* This centers the box itself horizontally */
+}
+.counter-button {
+    background-color: #161311;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px; /* This creates the space between the buttons */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-button:hover {
+    background-color: #717581; /* Darker blue on hover */
+}
+.counter-value {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;       /* Increased font size for better visibility of the count */
+    margin-top: 10px;
+}   
