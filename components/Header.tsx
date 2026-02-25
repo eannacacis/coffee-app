@@ -14,9 +14,9 @@ export default function Header(): ReactElement{
       "nav",
       { className: styles.nav },
       createElement("a", { href: "#home", className: styles.link }, "home"),
-      createElement("a", { href: "#about", className: styles.link }, "about"),
-      createElement("a", { href: "#services", className: styles.link }, "services"),
-      createElement("a", { href: "#contact", className: styles.link }, "Contact"),
+      createElement("a", { href: "#about", className: styles.link }, "abouts"),
+      createElement("a", { href: "#services", className: styles.link }, "servicess"),
+      createElement("a", { href: "#contact", className: styles.link }, "Contacts"),
     )
 
        );
