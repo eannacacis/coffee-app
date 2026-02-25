@@ -1,3 +1,48 @@
-.main{padding: 24px; max-width: 800px; margin: 0 auto;}
-.btn{padding: 10px 16 px; background: #2563eb; color:#fff;border: none; border-radius: 8px; cursor: pointer;}
-.card{ margin-top: 16px; padding: 16px;border: 1px solid #e5e7eb;border-radius:8px;background: #fff;}
+
+/* The main container */
+.main {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fdfaf7; /* Light cream background */
+  min-height: 100vh;
+}
+
+/* The big Shot Counter button */
+.btn {
+  display: block;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  background-color: #6f4e37; /* Coffee Brown */
+  color: #ffffff;            /* White text */
+  border: 2px solid #4b3621; /* Dark border to make it pop */
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* The "Order" buttons inside the list */
+.orderBtn {
+  padding: 8px 16px;
+  background-color: #a1887f; /* Latte color */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.orderBtn:hover {
+  background-color: #8d6e63;
+}
+
+/* Container for the rows */
+.orderRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
