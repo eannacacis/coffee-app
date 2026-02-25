@@ -1,1 +1,22 @@
-.footer { padding: 12px 24px; background: #f3f4f6; text-align: center; margin-top: 24px; }
+.footer {
+    padding: 20px 24px;
+    background: linear-gradient(135deg, #6f4e37, #4b2e2e);
+    color: #fdf6ee;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 3px solid #3a1f1f;
+    font-family: Arial, sans-serif;
+    }
+
+.footer small {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.footer h4 {
+    margin-bottom: 8px;
+}
+
+.footer p {
+    margin: 4px 0;
+}

@@ -44,5 +44,5 @@ export default function Main(): ReactElement {
       createElement("h3", null, "Services"),
       createElement("p", null, "Price Coffee.")
     )
-  );
+  )
 }
