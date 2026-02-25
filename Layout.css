@@ -1,0 +1,18 @@
+
+.page{padding-top:30px;min-height:100vh;}
+.center{text-align:center;}
+.form{
+width:350px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+input{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border-radius:6px;
+border:1px solid #ddd;
+}
